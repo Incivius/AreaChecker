@@ -18,7 +18,6 @@ public class ListaCompra implements Calculavel {
     }
 
     public void incluir(ItemCompra item) {
-        // Implementar lógica para incluir item à lista
         if (itensCompra.size() < qntdMax) {
             itensCompra.add(item);
         } else {
@@ -28,7 +27,6 @@ public class ListaCompra implements Calculavel {
 
     @Override
     public double calcularPreco() {
-        // Implementar lógica para calcular o preço total da lista de compras
         double precoTotal = 0;
         for (ItemCompra item : itensCompra) {
             precoTotal += item.calcularPreco();
