@@ -1,13 +1,11 @@
-package com.areachecker.test;
+package test.java;
 
-import com.areachecker.factory.FiguraFactory;
-import com.areachecker.factory.FiguraFactoryConcreta;
-import com.areachecker.figuras.FiguraGeometrica;
-import com.areachecker.figuras.Quadrado;
-import com.areachecker.figuras.Circulo;
-import com.areachecker.figuras.Retangulo;
-import com.areachecker.figuras.Triangulo;
-import com.areachecker.figuras.Paralelogramo;
+import main.java.figuras.Circulo;
+import main.java.figuras.FiguraGeometrica;
+import main.java.figuras.Paralelogramo;
+import main.java.figuras.Quadrado;
+import main.java.figuras.Retangulo;
+import main.java.figuras.Triangulo;
 
 public class TesteCalculoArea {
     public static void main(String[] args) {

@@ -1,8 +1,6 @@
-package com.areachecker.main;
+package main.java.main;
 
-import com.areachecker.factory.FiguraFactoryConcreta;
-import com.areachecker.figuras.FiguraGeometrica;
-import com.areachecker.test.TesteCalculoArea;
+import main.java.figuras.FiguraGeometrica;
 
 public class Main {
     public static void main(String[] args) {

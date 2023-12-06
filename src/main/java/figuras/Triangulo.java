@@ -1,10 +1,10 @@
-package com.areachecker.figuras;
+package main.java.figuras;
 
-public class Paralelogramo implements Calculable {
+public class Triangulo implements Calculable {
     private double base;
     private double altura;
 
-    public Paralelogramo(double base, double altura) {
+    public Triangulo(double base, double altura) {
         this.base = base;
         this.altura = altura;
     }
@@ -27,6 +27,6 @@ public class Paralelogramo implements Calculable {
 
     @Override
     public double calcularArea() {
-        return base * altura;
+        return (base * altura) / 2;
     }
 }

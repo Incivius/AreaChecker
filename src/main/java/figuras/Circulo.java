@@ -1,4 +1,4 @@
-package com.areachecker.figuras;
+package main.java.figuras;
 
 public class Circulo implements Calculable {
     private double raio;

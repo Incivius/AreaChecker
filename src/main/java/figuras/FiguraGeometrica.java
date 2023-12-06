@@ -1,4 +1,4 @@
-package com.areachecker.figuras;
+package main.java.figuras;
 
 public interface FiguraGeometrica extends Calculable {
     

@@ -1,4 +1,4 @@
-package com.areachecker.figuras;
+package main.java.figuras;
 
 public class Retangulo implements Calculable {
     private double comprimento;
