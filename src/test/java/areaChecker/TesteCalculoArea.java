@@ -1,4 +1,4 @@
-package test.java;
+package test.java.areaChecker;
 
 import main.java.areaChecker.ShapeFactory;
 import main.java.areaChecker.ShapeType;

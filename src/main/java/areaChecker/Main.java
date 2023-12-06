@@ -1,7 +1,7 @@
 package main.java.areaChecker;
 
 import main.java.areaChecker.figuras.Calculable;
-import test.java.TesteCalculoArea;
+import test.java.areaChecker.TesteCalculoArea;
 
 public class Main {
     public static void main(String[] args) {
