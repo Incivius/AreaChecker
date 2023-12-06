@@ -1,4 +1,4 @@
-package main.java.figuras;
+package main.java.areaChecker.figuras;
 
 public class Cubo implements Calculable {
     private double aresta;

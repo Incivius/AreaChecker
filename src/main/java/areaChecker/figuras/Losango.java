@@ -1,4 +1,4 @@
-package main.java.figuras;
+package main.java.areaChecker.figuras;
 
 public class Losango implements Calculable {
     private double diagonalMaior;
